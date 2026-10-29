@@ -1,1 +1,26 @@
+<div class="login-container">
+    <div class="login-card">
+        <h2>KANBAN LOGIN</h2>
+        <p class="subtitle">Please enter your details to sign in</p>
+        <form class="login-form">
+            <div class="input-group">
+                <label for="emailAddress">Email</label>
+                <input type="email" placeholder="email@email.com" id="emailAddress" [required]="true"/>
+            </div>
 
+            <div class="input-group">
+                <div class="label-wrapper">
+                    <label for="password">Password</label>
+                    <a href="#" class="forgot-link">Forgot password?</a>
+                </div>
+                <input type="password" id="password" placeholder="Enter your password" required>
+            </div>
+                
+            <button type="submit" class="submit-btn"> Sign In</button>
+            
+        </form>
+
+        <p class="signup-text">Don't have an account? <a href="#">Sign up</a></p>
+
+    </div>
+</div>
