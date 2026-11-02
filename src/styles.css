@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    /* Palette: Deep Color Ocean */
+    --ocean-700: #2c5960;
+    --ocean-600: #407c87;
+    --ocean-300: #a5dbdd;
+    --ocean-100: #d3e1e2;
+    --ocean-50: #eef1f6;
+    --ink: #1e3a40;
+
+    /* Semantic tokens */
+    --color-primary: var(--ocean-600);
+    --color-primary-hover: var(--ocean-700);
+    --color-accent: var(--ocean-300);
+
+    --color-bg: var(--ocean-100);
+    --color-surface: var(--ocean-50);
+    --color-border: var(--ocean-100);
+
+    --color-text: var(--ink);
+    --color-text-muted: var(--ocean-600);
+    --color-text-on-primary: var(--ocean-50);
+
+    --color-input-bg:       var(--ocean-50);
+    --color-input-border:   var(--ocean-600);
+    --color-focus-ring:     var(--ocean-300);
+
+    --gradient-primary: linear-gradient(180deg, var(--ocean-600) 0%, var(--ocean-300) 100%);
+    --shadow-card: 0 10px 25px rgba(30, 58, 64, 0.35);
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+}
